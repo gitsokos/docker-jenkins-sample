@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian
 MAINTAINER George "grtsokos@google.com"
 ENV REFRESHED_AT 2023-12-09
 RUN apt-get update
