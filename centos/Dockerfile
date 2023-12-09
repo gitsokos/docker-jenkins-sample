@@ -1,5 +1,5 @@
 FROM centos:latest
-MAINTAINER James Turnbull "james@example.com"
-ENV REFRESHED_AT 2016-06-01
+MAINTAINER George "grtsokos@google.com"
+ENV REFRESHED_AT 2023-12-09
 RUN yum -y install ruby rubygems rubygem-rake
-RUN gem install --no-rdoc --no-ri rspec ci_reporter_rspec
+RUN gem install rspec ci_reporter_rspec
